@@ -9,7 +9,7 @@ const pool = new Pool({
 });
 
 pool.connect()
-  .then(() => console.log("Base de datos PostgreSQL (Supabase) conectada exitosamente"))
+  .then(() => console.log("Base de datos PostgreSQL conectada exitosamente"))
   .catch(err => console.error("Error de conexión a la base de datos:", err.message));
 
 module.exports = pool;
