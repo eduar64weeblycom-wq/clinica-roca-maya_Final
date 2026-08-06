@@ -17,7 +17,7 @@
     "ejs": "^3.1.10",
     "excel4node": "^1.8.2",
     "express": "^4.18.2",
-    "express-rate-limit": "^8.6.1",
+    "express-rate-limit": "^8.2.1",
     "express-session": "^1.19.0",
     "express-validator": "^7.3.1",
     "helmet": "^8.3.0",
@@ -25,12 +25,13 @@
     "multer": "^2.2.0",
     "node-cron": "^4.6.0",
     "nodemailer": "^9.0.3",
-    "nodemon": "^3.1.10",
-    "path": "^0.12.7",
     "pdfkit": "^0.19.1",
     "pg": "^8.22.0",
     "qrcode": "^1.5.4",
     "speakeasy": "^2.0.0",
     "xlsx-populate": "^1.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
