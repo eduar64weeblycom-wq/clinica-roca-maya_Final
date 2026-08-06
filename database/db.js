@@ -8,7 +8,8 @@ const pool = new Pool({
   }
 });
 
-pool.connect()
+// Verificación de conexión (sin retener el cliente)
+pool.query('SELECT 1')
   .then(() => console.log("Base de datos PostgreSQL conectada exitosamente"))
   .catch(err => console.error("Error de conexión a la base de datos:", err.message));
 
